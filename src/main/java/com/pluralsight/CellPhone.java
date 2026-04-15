@@ -63,4 +63,14 @@ public class CellPhone {
     public void setOwner(String owner) {
         this.owner = owner;
     }
+
+//    public static void display(){
+//        System.out.println("\nCellPhone Details:");
+//        System.out.println("Serial Number: " + getSerialNumber);
+//        System.out.println("Model: " + this.model);
+//        System.out.println("Carrier: " + this.carrier);
+//        System.out.println("Phone Number: " + this.phoneNumber);
+//        System.out.println("Owner: " + this.owner);
+//        System.out.println("Dialing: " + this.dial);
+//    }
 }
