@@ -6,7 +6,7 @@ public class CellPhone {
     private String carrier;
     private String phoneNumber;
     private String owner;
-    private String dial;
+    public String dial;
 
     public CellPhone() {
         serialNumber = 0;
@@ -16,7 +16,7 @@ public class CellPhone {
         owner = "";
     }
 
-    public String getDial() {
+    public String getDial(String phoneNumber) {
         return dial;
     }
 
